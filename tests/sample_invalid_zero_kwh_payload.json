@@ -1,0 +1,7 @@
+{
+  "chargingSessionId": "CHG-SESSION-EU-INVALID",
+  "chargerId": "EVSE-DE-AUTOBAHN-A9-04",
+  "vehicleAccountUUID": "VEH-UNKNOWN",
+  "energyDeliveredKWh": 0.0,
+  "tariffRatePerKWh": 0.52
+}

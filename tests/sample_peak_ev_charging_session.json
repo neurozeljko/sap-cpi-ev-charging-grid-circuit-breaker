@@ -1,0 +1,7 @@
+{
+  "chargingSessionId": "CHG-SESSION-EU-2026-99412",
+  "chargerId": "EVSE-DE-AUTOBAHN-A9-04",
+  "vehicleAccountUUID": "VEH-BMW-I4-M50-VIN98810",
+  "energyDeliveredKWh": 64.50,
+  "tariffRatePerKWh": 0.52
+}

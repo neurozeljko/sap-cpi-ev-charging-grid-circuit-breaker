@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "S4HANABillingDocumentSchema",
+  "type": "object",
+  "properties": {
+    "BillingDocumentType": { "type": "string" },
+    "SalesOrganization": { "type": "string" },
+    "TotalNetAmount": { "type": "number" },
+    "to_Item": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "BillingDocumentItem": { "type": "string" },
+          "Product": { "type": "string" },
+          "BillingQuantity": { "type": "string" }
+        },
+        "required": ["BillingDocumentItem", "Product", "BillingQuantity"]
+      }
+    }
+  },
+  "required": ["BillingDocumentType", "SalesOrganization", "TotalNetAmount", "to_Item"]
+}
